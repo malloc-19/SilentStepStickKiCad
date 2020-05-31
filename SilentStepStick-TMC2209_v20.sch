@@ -1,0 +1,731 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11821 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8650 3600 8850 3600
+Text Label 8850 3600 0    50   ~ 0
+DIAG
+Wire Wire Line
+	4250 2750 3650 2750
+Text Label 3650 2750 2    50   ~ 0
+DIAG
+Wire Wire Line
+	8650 3700 8850 3700
+Text Label 8850 3700 0    50   ~ 0
+INDEX
+Wire Wire Line
+	4250 2850 3650 2850
+Text Label 3650 2850 2    50   ~ 0
+INDEX
+Wire Wire Line
+	8650 1900 8850 1900
+Text Label 8850 1900 0    50   ~ 0
+STEP
+Wire Wire Line
+	4250 2450 3650 2450
+Text Label 3650 2450 2    50   ~ 0
+STEP
+Wire Wire Line
+	8650 2000 8850 2000
+Text Label 8850 2000 0    50   ~ 0
+DIR
+Wire Wire Line
+	4250 2550 3650 2550
+Text Label 3650 2550 2    50   ~ 0
+DIR
+Wire Wire Line
+	8650 3150 8850 3150
+Text Label 8850 3150 0    50   ~ 0
+VM
+Wire Wire Line
+	5850 1450 6250 1450
+Wire Wire Line
+	6250 1450 7000 1450
+Wire Wire Line
+	7000 1450 7350 1450
+Wire Wire Line
+	5850 1450 5850 1300
+Wire Wire Line
+	7000 1350 7000 1450
+Wire Wire Line
+	6250 1450 6250 1300
+Wire Wire Line
+	7000 1350 6700 1350
+Wire Wire Line
+	7300 1350 7000 1350
+Text Label 7350 1450 0    50   ~ 0
+VM
+Connection ~ 5850 1450
+Connection ~ 7000 1450
+Connection ~ 6250 1450
+Connection ~ 7000 1350
+Wire Wire Line
+	6550 1850 7350 1850
+Text Label 7350 1850 0    50   ~ 0
+VM
+Wire Wire Line
+	8650 3050 9100 3050
+Text Label 8650 3050 0    10   ~ 0
+GND
+Wire Wire Line
+	8650 2450 9100 2450
+Text Label 8650 2450 0    10   ~ 0
+GND
+Wire Wire Line
+	2150 1800 2150 1950
+Text Label 2150 1800 0    10   ~ 0
+GND
+Wire Wire Line
+	5850 1100 5850 950 
+Text Label 5850 1100 0    10   ~ 0
+GND
+Wire Wire Line
+	6100 4350 6100 4300
+Text Label 6100 4350 0    10   ~ 0
+GND
+Wire Wire Line
+	6450 4350 6450 4300
+Text Label 6450 4350 0    10   ~ 0
+GND
+Wire Wire Line
+	7000 1050 7000 950 
+Wire Wire Line
+	7000 1050 6700 1050
+Wire Wire Line
+	7000 1050 7300 1050
+Connection ~ 7000 1050
+Text Label 7000 1050 0    10   ~ 0
+GND
+Wire Wire Line
+	4250 1850 2650 1850
+Wire Wire Line
+	2650 1950 2650 1850
+Wire Wire Line
+	4250 2050 4250 1850
+Connection ~ 2650 1850
+Connection ~ 4250 1850
+Text Label 4250 1850 0    10   ~ 0
+GND
+Wire Wire Line
+	2900 3450 2900 3550
+Wire Wire Line
+	2900 3550 2900 3650
+Wire Wire Line
+	3200 3650 2900 3650
+Wire Wire Line
+	2900 3450 4250 3450
+Connection ~ 2900 3550
+Text Label 2900 3450 0    10   ~ 0
+GND
+Wire Wire Line
+	6250 1100 6250 950 
+Text Label 6250 1100 0    10   ~ 0
+GND
+Wire Wire Line
+	5850 2650 6150 2650
+Text Label 6150 2650 0    50   ~ 0
+OA1
+Wire Wire Line
+	8650 2850 8850 2850
+Text Label 8850 2850 0    50   ~ 0
+OA1
+Wire Wire Line
+	5850 2850 6150 2850
+Text Label 6150 2850 0    50   ~ 0
+OA2
+Wire Wire Line
+	8650 2950 8850 2950
+Text Label 8850 2950 0    50   ~ 0
+OA2
+Wire Wire Line
+	5850 3250 6150 3250
+Text Label 6150 3250 0    50   ~ 0
+OB2
+Wire Wire Line
+	8650 2650 8850 2650
+Text Label 8850 2650 0    50   ~ 0
+OB2
+Wire Wire Line
+	5850 3050 6150 3050
+Text Label 6150 3050 0    50   ~ 0
+OB1
+Wire Wire Line
+	8650 2750 8850 2750
+Text Label 8850 2750 0    50   ~ 0
+OB1
+Wire Wire Line
+	8650 2550 8850 2550
+Text Label 8850 2550 0    50   ~ 0
+VIO
+Wire Wire Line
+	2150 950  2150 1450
+Wire Wire Line
+	2150 1450 2150 1600
+Wire Wire Line
+	4250 1450 3100 1450
+Wire Wire Line
+	3100 1450 3100 2250
+Wire Wire Line
+	3100 2250 3200 2250
+Wire Wire Line
+	3100 1450 2150 1450
+Text Label 2150 950  1    50   ~ 0
+VIO
+Connection ~ 3100 1450
+Connection ~ 2150 1450
+Wire Wire Line
+	5850 1850 6350 1850
+Wire Wire Line
+	5850 2050 6050 2050
+Wire Wire Line
+	5850 2250 6450 2250
+Wire Wire Line
+	6450 2250 6450 2050
+Wire Wire Line
+	6450 2050 6250 2050
+Wire Wire Line
+	5850 3650 6450 3650
+Wire Wire Line
+	6450 3650 6450 3900
+Wire Wire Line
+	5850 3850 6100 3850
+Wire Wire Line
+	6100 3850 6100 3900
+Wire Wire Line
+	2650 1650 4250 1650
+Wire Wire Line
+	2650 1650 2650 950 
+Connection ~ 2650 1650
+Text Label 2650 1650 0    10   ~ 0
++5V
+Wire Wire Line
+	2900 4100 3050 4100
+Text Label 2900 4100 0    10   ~ 0
++5V
+Wire Wire Line
+	3800 4300 3800 3850
+Wire Wire Line
+	3800 3850 3450 3850
+Wire Wire Line
+	4250 3850 3800 3850
+Text Label 3450 3850 2    50   ~ 0
+VREF
+Connection ~ 3800 3850
+Wire Wire Line
+	8850 4100 8650 4100
+Text Label 8850 4100 0    50   ~ 0
+VREF
+Wire Wire Line
+	8650 1400 8850 1400
+Text Label 8850 1400 0    50   ~ 0
+MS1
+Wire Wire Line
+	4250 3150 3650 3150
+Text Label 3650 3150 2    50   ~ 0
+MS1
+Wire Wire Line
+	8650 1500 8850 1500
+Text Label 8850 1500 0    50   ~ 0
+MS2
+Wire Wire Line
+	4250 3250 3650 3250
+Text Label 3650 3250 2    50   ~ 0
+MS2
+Wire Wire Line
+	3600 4100 3450 4100
+Wire Wire Line
+	3600 3650 4250 3650
+Text Label 3800 3650 0    50   ~ 0
+PDN_UART
+Wire Wire Line
+	9600 1500 9800 1500
+Text Label 9800 1500 0    50   ~ 0
+PDN_UART
+Wire Wire Line
+	3600 2250 4250 2250
+Text Label 3800 2250 0    50   ~ 0
+EN
+Wire Wire Line
+	8650 1300 8850 1300
+Text Label 8850 1300 0    50   ~ 0
+EN
+Wire Wire Line
+	9200 1700 9200 1300
+Wire Wire Line
+	9200 1300 9400 1300
+Wire Wire Line
+	8650 1700 9200 1700
+Wire Wire Line
+	4250 3050 3650 3050
+Text Label 3650 3050 2    50   ~ 0
+SPREAD
+Wire Wire Line
+	8850 1600 8650 1600
+Text Label 8850 1600 0    50   ~ 0
+SPREAD
+Wire Wire Line
+	8650 1800 9400 1800
+Wire Wire Line
+	9400 1800 9400 1700
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND010
+U 1 1 0087CD10
+P 9200 3050
+F 0 "#GND010" H 9200 3050 50  0001 C CNN
+F 1 "GND" H 9100 2950 59  0000 L BNN
+F 2 "" H 9200 3050 50  0001 C CNN
+F 3 "" H 9200 3050 50  0001 C CNN
+	1    9200 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND09
+U 1 1 FD0A31A1
+P 9200 2450
+F 0 "#GND09" H 9200 2450 50  0001 C CNN
+F 1 "GND" H 9100 2350 59  0000 L BNN
+F 2 "" H 9200 2450 50  0001 C CNN
+F 3 "" H 9200 2450 50  0001 C CNN
+	1    9200 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND01
+U 1 1 8DA2BB24
+P 2150 2050
+F 0 "#GND01" H 2150 2050 50  0001 C CNN
+F 1 "GND" H 2050 1950 59  0000 L BNN
+F 2 "" H 2150 2050 50  0001 C CNN
+F 3 "" H 2150 2050 50  0001 C CNN
+	1    2150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND04
+U 1 1 12C122FD
+P 5850 850
+F 0 "#GND04" H 5850 850 50  0001 C CNN
+F 1 "GND" H 5750 750 59  0000 L BNN
+F 2 "" H 5850 850 50  0001 C CNN
+F 3 "" H 5850 850 50  0001 C CNN
+	1    5850 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:R-EU_M0805 R6
+U 1 1 0DC3F8C1
+P 6100 4100
+F 0 "R6" H 5950 4159 59  0000 L BNN
+F 1 "R0805/0R11" H 5950 3970 59  0000 L BNN
+F 2 "SilentStepStick-TMC2209_v20:M0805" H 6100 4100 50  0001 C CNN
+F 3 "" H 6100 4100 50  0001 C CNN
+	1    6100 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:R-EU_M0805 R7
+U 1 1 F05E0EDF
+P 6450 4100
+F 0 "R7" H 6300 4159 59  0000 L BNN
+F 1 "R0805/0R11" H 6300 3970 59  0000 L BNN
+F 2 "SilentStepStick-TMC2209_v20:M0805" H 6450 4100 50  0001 C CNN
+F 3 "" H 6450 4100 50  0001 C CNN
+	1    6450 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND07
+U 1 1 C2693486
+P 6100 4450
+F 0 "#GND07" H 6100 4450 50  0001 C CNN
+F 1 "GND" H 6000 4350 59  0000 L BNN
+F 2 "" H 6100 4450 50  0001 C CNN
+F 3 "" H 6100 4450 50  0001 C CNN
+	1    6100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND08
+U 1 1 E3161DBF
+P 6450 4450
+F 0 "#GND08" H 6450 4450 50  0001 C CNN
+F 1 "GND" H 6350 4350 59  0000 L BNN
+F 2 "" H 6450 4450 50  0001 C CNN
+F 3 "" H 6450 4450 50  0001 C CNN
+	1    6450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND03
+U 1 1 21137572
+P 3600 4600
+F 0 "#GND03" H 3600 4600 50  0001 C CNN
+F 1 "GND" H 3500 4500 59  0000 L BNN
+F 2 "" H 3600 4600 50  0001 C CNN
+F 3 "" H 3600 4600 50  0001 C CNN
+	1    3600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:C-EUC0805 C7A1
+U 1 1 3AC2D930
+P 6700 1250
+F 0 "C7A1" V 6800 1350 59  0000 R TNN
+F 1 "1u/50V" V 6800 1150 59  0000 R TNN
+F 2 "SilentStepStick-TMC2209_v20:C0805" H 6700 1250 50  0001 C CNN
+F 3 "" H 6700 1250 50  0001 C CNN
+	1    6700 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND06
+U 1 1 F6847280
+P 7000 850
+F 0 "#GND06" H 7000 850 50  0001 C CNN
+F 1 "GND" H 6900 750 59  0000 L BNN
+F 2 "" H 7000 850 50  0001 C CNN
+F 3 "" H 7000 850 50  0001 C CNN
+	1    7000 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:+5V #P+01
+U 1 1 6A081B6E
+P 2650 850
+F 0 "#P+01" H 2650 850 50  0001 C CNN
+F 1 "+5V" V 2750 950 59  0000 R TNN
+F 2 "" H 2650 850 50  0001 C CNN
+F 3 "" H 2650 850 50  0001 C CNN
+	1    2650 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:+5V #P+02
+U 1 1 637B3A6A
+P 2800 4100
+F 0 "#P+02" H 2800 4100 50  0001 C CNN
+F 1 "+5V" V 2900 4200 59  0000 R TNN
+F 2 "" H 2800 4100 50  0001 C CNN
+F 3 "" H 2800 4100 50  0001 C CNN
+	1    2800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:POT-EVM3R R4
+U 1 1 080A39E0
+P 3600 4300
+F 0 "R4" V 3350 4300 59  0000 C BNN
+F 1 "20k" V 3450 4300 59  0000 C BNN
+F 2 "SilentStepStick-TMC2209_v20:POT_EVM3R" H 3600 4300 50  0001 C CNN
+F 3 "" H 3600 4300 50  0001 C CNN
+	1    3600 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:PASSER-04 X1
+U 1 1 A9A22793
+P 8400 7000
+F 0 "X1" H 8400 7000 50  0001 C CNN
+F 1 "PASSER-04" H 8400 7000 50  0001 C CNN
+F 2 "SilentStepStick-TMC2209_v20:PASSER_04MM" H 8400 7000 50  0001 C CNN
+F 3 "" H 8400 7000 50  0001 C CNN
+	1    8400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:PASSER-04 X2
+U 1 1 C1B110A9
+P 8700 7000
+F 0 "X2" H 8700 7000 50  0001 C CNN
+F 1 "PASSER-04" H 8700 7000 50  0001 C CNN
+F 2 "SilentStepStick-TMC2209_v20:PASSER_04MM" H 8700 7000 50  0001 C CNN
+F 3 "" H 8700 7000 50  0001 C CNN
+	1    8700 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:FRAME-A4L #FRAME1
+U 1 1 CC96BE83
+P 900 7300
+F 0 "#FRAME1" H 900 7300 50  0001 C CNN
+F 1 "FRAME-A4L" H 900 7300 50  0001 C CNN
+F 2 "" H 900 7300 50  0001 C CNN
+F 3 "" H 900 7300 50  0001 C CNN
+	1    900  7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:CAPACITOR-0402 C1
+U 1 1 E842D875
+P 2150 1700
+F 0 "C1" H 2150 1800 59  0000 C BNN
+F 1 "100n/50V" H 2150 1600 59  0000 C TNN
+F 2 "SilentStepStick-TMC2209_v20:C0402" H 2150 1700 50  0001 C CNN
+F 3 "" H 2150 1700 50  0001 C CNN
+	1    2150 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:CAPACITOR-0402 C2
+U 1 1 D5AF2F7B
+P 2650 1750
+F 0 "C2" H 2650 1850 59  0000 C BNN
+F 1 "4u7/6V3" H 2650 1650 59  0000 C TNN
+F 2 "SilentStepStick-TMC2209_v20:C0402" H 2650 1750 50  0001 C CNN
+F 3 "" H 2650 1750 50  0001 C CNN
+	1    2650 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:CAPACITOR-0402 C3
+U 1 1 CC7CE3DD
+P 5850 1200
+F 0 "C3" H 5850 1300 59  0000 C BNN
+F 1 "100n/50V" H 5850 1100 59  0000 C TNN
+F 2 "SilentStepStick-TMC2209_v20:C0402" H 5850 1200 50  0001 C CNN
+F 3 "" H 5850 1200 50  0001 C CNN
+	1    5850 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:CAPACITOR-0402 C6
+U 1 1 C04ABA72
+P 6450 1850
+F 0 "C6" H 6450 1950 59  0000 C BNN
+F 1 "100n/50V" H 6450 1750 59  0000 C TNN
+F 2 "SilentStepStick-TMC2209_v20:C0402" H 6450 1850 50  0001 C CNN
+F 3 "" H 6450 1850 50  0001 C CNN
+	1    6450 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:CAPACITOR-0402 C4
+U 1 1 94F7559A
+P 6150 2050
+F 0 "C4" H 6150 2150 59  0000 C BNN
+F 1 "22n/50V" H 6150 1950 59  0000 C TNN
+F 2 "SilentStepStick-TMC2209_v20:C0402" H 6150 2050 50  0001 C CNN
+F 3 "" H 6150 2050 50  0001 C CNN
+	1    6150 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:RESISTOR-0402 R5
+U 1 1 7871EB2D
+P 3250 4100
+F 0 "R5" H 3250 4150 59  0000 C BNN
+F 1 "20k" H 3250 4050 59  0000 C TNN
+F 2 "SilentStepStick-TMC2209_v20:C0402" H 3250 4100 50  0001 C CNN
+F 3 "" H 3250 4100 50  0001 C CNN
+	1    3250 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND02
+U 1 1 4877C9E2
+P 2800 3550
+F 0 "#GND02" H 2800 3550 50  0001 C CNN
+F 1 "GND" H 2700 3450 59  0000 L BNN
+F 2 "" H 2800 3550 50  0001 C CNN
+F 3 "" H 2800 3550 50  0001 C CNN
+	1    2800 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:RESISTOR-0402 R1
+U 1 1 E6F25872
+P 3400 3650
+F 0 "R1" H 3400 3700 59  0000 C BNN
+F 1 "20k" H 3400 3600 59  0000 C TNN
+F 2 "SilentStepStick-TMC2209_v20:C0402" H 3400 3650 50  0001 C CNN
+F 3 "" H 3400 3650 50  0001 C CNN
+	1    3400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:RESISTOR-0402 R2
+U 1 1 37CABFCF
+P 3400 2250
+F 0 "R2" H 3400 2300 59  0000 C BNN
+F 1 "20k" H 3400 2200 59  0000 C TNN
+F 2 "SilentStepStick-TMC2209_v20:C0402" H 3400 2250 50  0001 C CNN
+F 3 "" H 3400 2250 50  0001 C CNN
+	1    3400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:CAPACITOR-0402 C5
+U 1 1 6FEBE280
+P 6250 1200
+F 0 "C5" H 6250 1300 59  0000 C BNN
+F 1 "100n/50V" H 6250 1100 59  0000 C TNN
+F 2 "SilentStepStick-TMC2209_v20:C0402" H 6250 1200 50  0001 C CNN
+F 3 "" H 6250 1200 50  0001 C CNN
+	1    6250 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND05
+U 1 1 5B6A58CA
+P 6250 850
+F 0 "#GND05" H 6250 850 50  0001 C CNN
+F 1 "GND" H 6150 750 59  0000 L BNN
+F 2 "" H 6250 850 50  0001 C CNN
+F 3 "" H 6250 850 50  0001 C CNN
+	1    6250 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:GND #GND011
+U 1 1 5518330F
+P 2650 2050
+F 0 "#GND011" H 2650 2050 50  0001 C CNN
+F 1 "GND" H 2550 1950 59  0000 L BNN
+F 2 "" H 2650 2050 50  0001 C CNN
+F 3 "" H 2650 2050 50  0001 C CNN
+	1    2650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:JUMPER3-0402-NC JMP1
+U 1 1 54776F4C
+P 9400 1500
+F 0 "JMP1" V 9500 1500 59  0000 C TNN
+F 1 "JUMPER3-0402-NC" H 9400 1500 50  0001 C CNN
+F 2 "SilentStepStick-TMC2209_v20:JUMPER3-0402_NC" H 9400 1500 50  0001 C CNN
+F 3 "" H 9400 1500 50  0001 C CNN
+	1    9400 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:LOGO_SPARK-2 LOGO3
+U 1 1 03FD88E0
+P 7850 7000
+F 0 "LOGO3" H 7850 7000 50  0001 C CNN
+F 1 "LOGO_SPARK-2" H 7850 7000 50  0001 C CNN
+F 2 "SilentStepStick-TMC2209_v20:SPARK_2MM" H 7850 7000 50  0001 C CNN
+F 3 "" H 7850 7000 50  0001 C CNN
+	1    7850 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:LOGO_OSHW-2 LOGO4
+U 1 1 624F5DBB
+P 7450 7000
+F 0 "LOGO4" H 7450 7000 50  0001 C CNN
+F 1 "LOGO_OSHW-2" H 7450 7000 50  0001 C CNN
+F 2 "SilentStepStick-TMC2209_v20:OSHW_2MM" H 7450 7000 50  0001 C CNN
+F 3 "" H 7450 7000 50  0001 C CNN
+	1    7450 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:MA08-1 J2
+U 1 1 C3E76336
+P 8350 2850
+F 0 "J2" H 8300 3380 59  0000 L BNN
+F 1 "MA08-1" H 8300 2350 59  0000 L BNN
+F 2 "SilentStepStick-TMC2209_v20:MA08-1" H 8350 2850 50  0001 C CNN
+F 3 "" H 8350 2850 50  0001 C CNN
+	1    8350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:MA02-1 J3
+U 1 1 B665FDA9
+P 8350 3600
+F 0 "J3" H 8300 3730 59  0000 L BNN
+F 1 "MA02-1" H 8300 3300 59  0000 L BNN
+F 2 "SilentStepStick-TMC2209_v20:MA02-1" H 8350 3600 50  0001 C CNN
+F 3 "" H 8350 3600 50  0001 C CNN
+	1    8350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:PAD-0.6-1.1 REF1
+U 1 1 5A20CE19
+P 8550 4100
+F 0 "REF1" H 8475 4100 59  0000 R CNN
+F 1 "PAD-0.6-1.1" H 8550 4100 50  0001 C CNN
+F 2 "SilentStepStick-TMC2209_v20:PAD-0.6-1.1" H 8550 4100 50  0001 C CNN
+F 3 "" H 8550 4100 50  0001 C CNN
+	1    8550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:C-EUC1206 C7B1
+U 1 1 92FCDFA9
+P 7000 1250
+F 0 "C7B1" V 7100 1350 59  0000 R TNN
+F 1 "10u/35V" V 7100 1150 59  0000 R TNN
+F 2 "SilentStepStick-TMC2209_v20:C1206" H 7000 1250 50  0001 C CNN
+F 3 "" H 7000 1250 50  0001 C CNN
+	1    7000 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:TMC2209-LA IC1
+U 1 1 22F7723E
+P 5050 2650
+F 0 "IC1" H 4450 4050 59  0000 L TNN
+F 1 "TMC2209-LA" H 4450 1250 59  0000 L BNN
+F 2 "SilentStepStick-TMC2209_v20:QFN28-PAD3.7" H 5050 2650 50  0001 C CNN
+F 3 "" H 5050 2650 50  0001 C CNN
+	1    5050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:MA08-1 J1
+U 1 1 449C7C68
+P 8350 1700
+F 0 "J1" H 8300 2230 59  0000 L BNN
+F 1 "MA08-1" H 8300 1200 59  0000 L BNN
+F 2 "SilentStepStick-TMC2209_v20:MA08-1" H 8350 1700 50  0001 C CNN
+F 3 "" H 8350 1700 50  0001 C CNN
+	1    8350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilentStepStick-TMC2209_v20-eagle-import:C-EUC1206 C8
+U 1 1 C2C7941B
+P 7300 1250
+F 0 "C8" V 7400 1350 59  0000 R TNN
+F 1 "10u/35V" V 7400 1150 59  0000 R TNN
+F 2 "SilentStepStick-TMC2209_v20:C1206" H 7300 1250 50  0001 C CNN
+F 3 "" H 7300 1250 50  0001 C CNN
+	1    7300 1250
+	-1   0    0    1   
+$EndComp
+Text Notes 7300 6750 0    42   ~ 0
+Released under the Creative Commons Attribution Share-Alike \nLicense. http://creativecommons.org/licenses/by-sa/4.0/\n\nDesigned by Stephan Watterott (Watterott electronic)
+Text Notes 1750 6450 0    70   ~ 0
+VRef 0...2.5V (0.11 Ohm  sense resistor)\n >=2.50V\n   1.25V\n   0.50V\n\nEN (with pull-up)\n GND\n VCC\n\nPDN/UART (with pull-down)\n GND\n VCC\n optional
+Text Notes 2350 6550 0    70   ~ 0
+100% - 1.77A RMS\n 50% - 0.88A RMS\n 20% - 0.35A RMS\n\n\ndriver enabled\ndriver disabled\n\n\nautomatic standstill current reduction\nautomatic standstill power down disable\nUART interface
+Text Notes 5300 5350 0    70   ~ 0
+MS1\n\nGND\nVIO\nGND\nVIO
+Text Notes 5700 5350 0    70   ~ 0
+MS2\n\nGND\nGND\nVIO\nVIO
+Text Notes 6100 5350 0    70   ~ 0
+Steps\n\n8\n32\n64\n16\n
+Text Notes 6600 5350 0    70   ~ 0
+Interpolation\n\nYes to 256\nYes to 256\nYes to 256\nYes to 256
+Text Notes 5300 5850 0    70   ~ 0
+SPREAD (with pull-down)\n GND   stealthChop\n VIO   spreadCycle
+Text Notes 5300 6100 0    70   ~ 0
+To access all other modes you have to use the UART interface.
+Text Notes 7500 1300 0    59   ~ 0
+C8 optional
+$EndSCHEMATC
